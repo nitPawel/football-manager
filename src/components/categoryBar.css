@@ -1,21 +1,22 @@
 .category-bar {
-  
-  height: 36px;
-  display: flex;
-  background-color: #EEEFF2;
-  align-items: center;
-  
+	height: 36px;
+	display: flex;
+	background-color: #eeeff2;
+	align-items: center;
 }
 
 .category-bar p {
-  margin-left: 16px;
-  display: flex;
-  font-weight: 500;
-  /* flex-direction: row; */
-  justify-content: start;
-  align-items: center;
-  text-align: center;
+	margin-left: 16px;
+	display: flex;
+	font-weight: 500;
+	/* flex-direction: row; */
+	justify-content: start;
+	align-items: center;
+	text-align: center;
 }
 .category-bar p:last-child {
-  color: #1C336C80;
+	color: #1c336c80;
+}
+.category-bar p:first-child {
+	margin-right: 15px;
 }
