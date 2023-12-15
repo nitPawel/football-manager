@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./navbar.css";
 import Logo from "../img/Logo.png";
 import pilka from "../img/pilka.svg";
@@ -9,12 +10,14 @@ import hokej from "../img/hokej.svg";
 function Navbar() {
 	return (
 		<nav className='navbar'>
-			<div className='navbar-container mt-3 px-5 '>
+			<div className='navbar-container '>
 				<div>
-					<img src={Logo} alt='company logo' />
+					<Link to='/'>
+						<img src={Logo} alt='company logo' />
+					</Link>
 				</div>
 				<div className='navbar-btn'>
-					<a  href=''>
+					<a href=''>
 						<img src={pilka} alt='' /> Piłka nożna
 					</a>
 					<a href=''>

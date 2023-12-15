@@ -1,15 +1,14 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./components/Navbar";
-import { CategoryBar } from "./components/CategoryBar";
-import { Game } from "./components/Game";
+
+import { Home } from "./components/Home";
+import Nav from "./components/Nav";
 
 function App() {
 	return (
 		<>
-			<Navbar />
-			<CategoryBar />
-			<Game />
+			{/* <Home /> */}
+      <Nav/>
 		</>
 	);
 }
