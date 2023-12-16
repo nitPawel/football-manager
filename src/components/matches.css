@@ -1,0 +1,75 @@
+.matches-country-bar {
+	border-top: 1px solid #d5e0e8;
+}
+.matches-country-bar p {
+	font-size: 20px;
+	line-height: 20px;
+	font-weight: 500;
+}
+.round-first {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #d5e0e8;
+	margin: 0px 15px;
+}
+.round-container:first-child {
+	border-top: none !important;
+}
+.round-first:nth-child() {
+	border: none;
+}
+.match-info {
+	margin-left: 30px;
+	color: #899daf;
+}
+
+.match-teams {
+	margin: 10px 0;
+	display: flex;
+	border-left: 3px solid #61aee4;
+	width: 700px;
+	justify-content: center;
+	flex-direction: column;
+}
+.match-team-first,
+.match-team-second {
+	display: flex;
+	margin: 0 10px;
+	font-weight: 500;
+	line-height: 26px;
+
+	font-size: 16px;
+}
+.match-team-first div,
+.match-team-second div {
+	margin: 0 10px;
+}
+
+.match-result p {
+	padding: 5px;
+	color: #00000080;
+}
+.match-details {
+	display: flex;
+
+	margin-right: 40px;
+}
+.match-teams img {
+	display: flex;
+}
+.details-icon,
+.details-btn {
+	margin: 0px 5px;
+	padding: 0 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #d5e0e8;
+	border-radius: 8px;
+}
+.details-icon {
+	color: #899daf;
+	height: 40px;
+	width: 40px;
+}

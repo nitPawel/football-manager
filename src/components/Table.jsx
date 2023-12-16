@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import { IoArrowForwardCircleOutline } from "react-icons/io5";
 import flagaAnglii from "../img/flagaanglii.svg";
 import "./table.css";
+import { Link } from "react-router-dom";
 
 const url = "https://php74.appgo.pl/sport_api/api/public/api/table";
 
@@ -56,8 +57,10 @@ export const Table = () => {
 							<p>Anglia: Premier League</p>
 						</div>
 						<div className='table-btn'>
-							<button className=''>Mecze</button>
-							<IoArrowForwardCircleOutline className='table-btn-icon' />
+							<Link to='/matches'>
+								<button className=''>Mecze</button>
+								<IoArrowForwardCircleOutline className='table-btn-icon' />
+							</Link>
 						</div>
 					</div>
 				</div>
